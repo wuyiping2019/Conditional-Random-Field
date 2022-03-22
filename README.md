@@ -14,12 +14,11 @@
     4) sh train.sh / sh test.sh
 
 ## train.sh
-`
+
 //train command: crf_learn template_file train_file model_file
 ../CRF++-0.58-windows/crf_learn -f 3 -c 4.0 ./seg-template ./corpus/people-daily-train.txt ./model
-`
+
 ## predict.sh
-`
+
 //predict command: crf_test -m model_file test_files ...
 ../CRF++-0.58-windows/crf_test -m ./model ./corpus/people-daily-test.txt
-`
