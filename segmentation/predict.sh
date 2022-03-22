@@ -1,0 +1,1 @@
+../CRF++-0.58-windows/crf_test -m ./model ./corpus/people-daily-test.txt

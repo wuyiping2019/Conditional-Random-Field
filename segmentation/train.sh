@@ -1,0 +1,1 @@
+../CRF++-0.58-windows/crf_learn -f 3 -c 4.0 ./seg-template ./corpus/people-daily-train.txt ./model
